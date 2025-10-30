@@ -1,0 +1,14 @@
+import express from 'express';
+import {createReview,deleteReview,getReviews} from "../controllers/review.controller.js"
+import { verifyToken } from '../middleware/jwt.js';
+const router=express.Router()
+
+router.post("/",verifyToken,createReview)
+router.get("/:gigId",getReviews)
+router.delete("/:reviewId",verifyToken,deleteReview)
+export default router;
+// {
+//     "gigId":"68fb5db1639e2ecc936afe3c",
+//     "star":5,
+//     "desc":"test review"
+//   }

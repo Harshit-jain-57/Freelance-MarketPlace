@@ -1,0 +1,78 @@
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import "./Messages.scss";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import newRequest from "../../utils/newRequest";
+import moment from "moment";
+
+const Messages = () => {
+  const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+  const queryClient=useQueryClient()
+  const { isLoading, error, data } = useQuery({
+    queryKey: ["conversations"],
+    queryFn: () =>
+      newRequest.get(`/conversations`).then((res) => {
+        return res.data;
+      }),
+  });
+  const mutation = useMutation({
+    mutationFn: (id) => {
+      return newRequest.put(`/conversations/${id}`)
+    },
+    onSuccess:()=>{
+        queryClient.invalidateQueries(["conversations"])
+    }
+  })
+  const handleRead=(id)=>{
+    mutation.mutate(id)
+  }
+
+  return (
+    <div className="messages">
+      {isLoading ? (
+        "Loading"
+      ) : error ? (
+        "Something went wrong"
+      ) : (
+        <div className="container">
+          <div className="title">
+            <h1>Messages</h1>
+          </div>
+          <table>
+            <thead>
+            <tr>
+              <th>{currentUser.isSeller ? "Buyer" : "Seller"}</th>
+              <th>Last Message</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {data.map((message)=>(
+              <tr className="active" key={message.id}>
+              <td>{currentUser.isSeller?message.buyerId:message.sellerId}</td>
+              <td>
+                <Link to={`/message/${message.id}`} className="link">
+                  {message?.lastMessage?.substring(0, 100)}...
+                </Link>
+              </td>
+              <td>{moment(message.updatedAt).fromNow()}</td>
+              <td>
+                {(currentUser.isSeller && !message.readByseller)||
+                (!currentUser.isSeller && !message.readBybuyer) ?(
+                  <button onClick={()=>handleRead(message.id)}>Mark as Read</button>
+                ):null}
+              </td>
+            </tr>
+            ))
+            }
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Messages;
