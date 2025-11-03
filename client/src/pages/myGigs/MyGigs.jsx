@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./MyGigs.scss";
+import { useQuery } from "@tanstack/react-query";
+import newRequest from "../../utils/newRequest";
 
 function MyGigs() {
-  const currentUser = {
-    id: 1,
-    username: "Anna",
-    isSeller: true,
-  };
-
+  const currentUser = JSON.parse(localStorage.getItem("currentUser"))
   return (
     <div className="myGigs">
       <div className="container">

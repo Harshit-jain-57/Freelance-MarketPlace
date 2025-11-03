@@ -48,7 +48,7 @@ function Navbar() {
           <span>Liverr Business</span>
           <span>Explore</span>
           <span>English</span>
-          {!currentUser?.isSeller && <span>Become a Seller</span>}
+          {!currentUser?.isSeller && <button>Become a Seller</button>}
           {currentUser ? (
             <div className="user" onClick={()=>setOpen(!open)}>
               <img

@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Featured.scss";
 
 function Featured() {
+  const [query,setQuery]=useState("")
+  const handleSearch =()=>{
+
+  }
   return (
     <div className="featured">
       <div className="container">
@@ -11,21 +15,21 @@ function Featured() {
           </h1>
           <div className="search">
             <div className="searchInput">
-              <img src="./img/search.png" alt="" />
-              <input type="text" placeholder='Try "building mobil app"' />
+              <img src="/img/search.png" alt="" />
+              <input type="text" placeholder='Try "building mobil app"' value={query} onChange={(e)=>setQuery(e.target.value)}/>
             </div>
-            <button>Search</button>
+            <button onClick={handleSearch}>Search</button>
           </div>
           <div className="popular">
             <span>Popular:</span>
-            <button>Web Design</button>
+            <button onClick={(e)=>setQuery('Web Design')}>Web Design</button>
             <button>WordPress</button>
             <button>Logo Design</button>
             <button>AI Services</button>
           </div>
         </div>
         <div className="right">
-          <img src="./img/man.png" alt="" />
+          <img src="/img/man.png" alt="" />
         </div>
       </div>
     </div>
