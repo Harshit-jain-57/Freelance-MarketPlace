@@ -7,8 +7,3 @@ router.post("/",verifyToken,createReview)
 router.get("/:gigId",getReviews)
 router.delete("/:reviewId",verifyToken,deleteReview)
 export default router;
-// {
-//     "gigId":"68fb5db1639e2ecc936afe3c",
-//     "star":5,
-//     "desc":"test review"
-//   }
