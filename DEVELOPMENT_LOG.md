@@ -13,3 +13,8 @@ Implemented the following:
 Implemented the following:
 - client/index.html
 
+## 2026-02-01 - Update 1
+Implemented the following:
+- client/package-lock.json
+- api/package-lock.json
+
