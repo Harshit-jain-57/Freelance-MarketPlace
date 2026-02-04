@@ -31,3 +31,7 @@ Implemented the following:
 Implemented the following:
 - api/server.js
 
+## 2026-02-04 - Update 1
+Implemented the following:
+- api/middleware/jwt.js
+
