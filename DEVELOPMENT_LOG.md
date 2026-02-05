@@ -35,3 +35,7 @@ Implemented the following:
 Implemented the following:
 - api/middleware/jwt.js
 
+## 2026-02-05 - Update 1
+Implemented the following:
+- api/models/conversation.model.js
+
