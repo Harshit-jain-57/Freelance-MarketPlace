@@ -39,3 +39,7 @@ Implemented the following:
 Implemented the following:
 - api/models/conversation.model.js
 
+## 2026-02-06 - Update 1
+Implemented the following:
+- api/models/gig.model.js
+
