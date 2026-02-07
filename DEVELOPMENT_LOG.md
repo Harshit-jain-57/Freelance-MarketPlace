@@ -43,3 +43,7 @@ Implemented the following:
 Implemented the following:
 - api/models/gig.model.js
 
+## 2026-02-07 - Update 1
+Implemented the following:
+- api/models/message.model.js
+
