@@ -51,3 +51,7 @@ Implemented the following:
 Implemented the following:
 - api/models/order.model.js
 
+## 2026-02-09 - Update 1
+Implemented the following:
+- api/models/review.model.js
+
