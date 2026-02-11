@@ -59,3 +59,7 @@ Implemented the following:
 Implemented the following:
 - api/models/user.model.js
 
+## 2026-02-11 - Update 1
+Implemented the following:
+- api/utils/createError.js
+
