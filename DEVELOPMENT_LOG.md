@@ -73,3 +73,7 @@ Implemented the following:
 Implemented the following:
 - api/controllers/auth.controller.js
 
+## 2026-02-15 - Update 1
+Implemented the following:
+- api/controllers/user.controller.js
+
