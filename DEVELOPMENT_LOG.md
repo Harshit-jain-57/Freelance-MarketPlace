@@ -77,3 +77,7 @@ Implemented the following:
 Implemented the following:
 - api/controllers/user.controller.js
 
+## 2026-02-16 - Update 1
+Implemented the following:
+- api/routes/auth.route.js
+
