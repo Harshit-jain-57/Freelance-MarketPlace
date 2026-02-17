@@ -81,3 +81,7 @@ Implemented the following:
 Implemented the following:
 - api/routes/auth.route.js
 
+## 2026-02-17 - Update 1
+Implemented the following:
+- api/routes/user.route.js
+
