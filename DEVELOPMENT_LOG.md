@@ -134,3 +134,7 @@ Implemented the following:
 Implemented the following:
 - api/controllers/order.controller.js
 
+## 2026-03-05 - Update 1
+Implemented the following:
+- api/controllers/review.controller.js
+
