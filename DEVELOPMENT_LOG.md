@@ -178,3 +178,7 @@ Implemented the following:
 - client/public/img/accessibility.png
 - client/public/img/message.png
 
+## 2026-03-16 - Update 2
+Implemented the following:
+- client/src/components/navbar/Navbar.jsx
+
