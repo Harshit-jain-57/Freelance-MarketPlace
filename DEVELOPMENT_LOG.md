@@ -186,3 +186,7 @@ Implemented the following:
 Implemented the following:
 - client/public/img/noavatar.jpg
 
+## 2026-03-17 - Update 2
+Implemented the following:
+- client/public/img/check.png
+
