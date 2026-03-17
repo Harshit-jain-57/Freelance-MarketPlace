@@ -182,3 +182,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/navbar/Navbar.jsx
 
+## 2026-03-17 - Update 1
+Implemented the following:
+- client/public/img/noavatar.jpg
+
