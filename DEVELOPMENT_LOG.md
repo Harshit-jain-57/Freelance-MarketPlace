@@ -190,3 +190,7 @@ Implemented the following:
 Implemented the following:
 - client/public/img/check.png
 
+## 2026-03-17 - Update 3
+Implemented the following:
+- client/src/components/navbar/Navbar.scss
+
