@@ -198,3 +198,7 @@ Implemented the following:
 Implemented the following:
 - client/public/img/clock.png
 
+## 2026-03-18 - Update 2
+Implemented the following:
+- client/src/components/projectCard/ProjectCard.jsx
+
