@@ -202,3 +202,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/projectCard/ProjectCard.jsx
 
+## 2026-03-18 - Update 3
+Implemented the following:
+- client/public/img/pinterest.png
+
