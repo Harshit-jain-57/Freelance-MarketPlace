@@ -194,3 +194,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/navbar/Navbar.scss
 
+## 2026-03-18 - Update 1
+Implemented the following:
+- client/public/img/clock.png
+
