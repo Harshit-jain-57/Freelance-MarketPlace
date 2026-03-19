@@ -214,3 +214,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/projectCard/ProjectCard.scss
 
+## 2026-03-19 - Update 3
+Implemented the following:
+- client/public/img/coin.png
+
