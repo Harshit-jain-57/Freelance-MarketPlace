@@ -218,3 +218,9 @@ Implemented the following:
 Implemented the following:
 - client/public/img/coin.png
 
+## 2026-03-20 - Update 1
+Implemented the following:
+- client/public/img/delete.png
+- client/src/components/review/Review.jsx
+- client/public/img/search.png
+
