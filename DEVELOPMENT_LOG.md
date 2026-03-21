@@ -224,3 +224,7 @@ Implemented the following:
 - client/src/components/review/Review.jsx
 - client/public/img/search.png
 
+## 2026-03-21 - Update 1
+Implemented the following:
+- client/src/components/review/Review.scss
+
