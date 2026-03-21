@@ -228,3 +228,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/review/Review.scss
 
+## 2026-03-21 - Update 2
+Implemented the following:
+- client/public/img/star.png
+
