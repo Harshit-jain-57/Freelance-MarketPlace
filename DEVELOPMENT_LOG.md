@@ -236,3 +236,9 @@ Implemented the following:
 Implemented the following:
 - client/public/img/dislike.png
 
+## 2026-03-22 - Update 1
+Implemented the following:
+- client/public/img/down.png
+- client/src/components/reviews/Reviews.jsx
+- client/public/img/twitter.png
+
