@@ -247,3 +247,7 @@ Implemented the following:
 - client/src/components/reviews/Reviews.scss
 - client/src/components/catCard/CatCard.jsx
 
+## 2026-03-23 - Update 2
+Implemented the following:
+- client/public/img/facebook.png
+
