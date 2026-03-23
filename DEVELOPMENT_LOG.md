@@ -242,3 +242,8 @@ Implemented the following:
 - client/src/components/reviews/Reviews.jsx
 - client/public/img/twitter.png
 
+## 2026-03-23 - Update 1
+Implemented the following:
+- client/src/components/reviews/Reviews.scss
+- client/src/components/catCard/CatCard.jsx
+
