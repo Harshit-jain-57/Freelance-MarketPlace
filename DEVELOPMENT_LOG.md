@@ -251,3 +251,9 @@ Implemented the following:
 Implemented the following:
 - client/public/img/facebook.png
 
+## 2026-03-24 - Update 1
+Implemented the following:
+- client/public/img/greencheck.png
+- client/src/components/slide/Slide.jsx
+- client/src/components/catCard/CatCard.scss
+
