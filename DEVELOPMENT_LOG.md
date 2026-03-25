@@ -257,3 +257,9 @@ Implemented the following:
 - client/src/components/slide/Slide.jsx
 - client/src/components/catCard/CatCard.scss
 
+## 2026-03-25 - Update 1
+Implemented the following:
+- client/src/components/slide/Slide.scss
+- client/public/img/heart.png
+- client/src/components/featured/Featured.jsx
+
