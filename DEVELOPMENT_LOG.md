@@ -263,3 +263,8 @@ Implemented the following:
 - client/public/img/heart.png
 - client/src/components/featured/Featured.jsx
 
+## 2026-03-26 - Update 1
+Implemented the following:
+- client/public/img/instagram.png
+- client/src/components/featured/Featured.scss
+
