@@ -276,3 +276,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/footer/Footer.jsx
 
+## 2026-03-27 - Update 2
+Implemented the following:
+- client/public/img/language.png
+
