@@ -280,3 +280,7 @@ Implemented the following:
 Implemented the following:
 - client/public/img/language.png
 
+## 2026-03-27 - Update 3
+Implemented the following:
+- client/src/components/trustedBy/TrustedBy.scss
+
