@@ -289,3 +289,7 @@ Implemented the following:
 - client/src/components/footer/Footer.scss
 - client/public/img/like.png
 
+## 2026-03-29 - Update 1
+Implemented the following:
+- client/src/components/gigCard/GigCard.jsx
+
