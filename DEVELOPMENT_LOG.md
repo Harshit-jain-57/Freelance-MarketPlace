@@ -293,3 +293,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/gigCard/GigCard.jsx
 
+## 2026-03-29 - Update 2
+Implemented the following:
+- client/public/img/linkedin.png
+
