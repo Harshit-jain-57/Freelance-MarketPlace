@@ -301,3 +301,7 @@ Implemented the following:
 Implemented the following:
 - client/src/components/gigCard/GigCard.scss
 
+## 2026-03-30 - Update 2
+Implemented the following:
+- client/public/img/man.png
+
