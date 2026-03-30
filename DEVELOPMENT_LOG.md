@@ -297,3 +297,7 @@ Implemented the following:
 Implemented the following:
 - client/public/img/linkedin.png
 
+## 2026-03-30 - Update 1
+Implemented the following:
+- client/src/components/gigCard/GigCard.scss
+
