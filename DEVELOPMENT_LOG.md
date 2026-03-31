@@ -305,3 +305,9 @@ Implemented the following:
 Implemented the following:
 - client/public/img/man.png
 
+## 2026-03-31 - Update 1
+Implemented the following:
+- client/src/App.jsx
+- client/src/pages/myGigs/MyGigs.jsx
+- client/src/pages/gigs/Gigs.jsx
+
