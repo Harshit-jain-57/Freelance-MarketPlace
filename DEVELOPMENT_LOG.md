@@ -311,3 +311,9 @@ Implemented the following:
 - client/src/pages/myGigs/MyGigs.jsx
 - client/src/pages/gigs/Gigs.jsx
 
+## 2026-04-01 - Update 1
+Implemented the following:
+- client/src/pages/gigs/Gigs.scss
+- client/src/pages/myGigs/MyGigs.scss
+- client/src/app.scss
+
