@@ -329,3 +329,7 @@ Implemented the following:
 Implemented the following:
 - client/src/pages/home/Home.jsx
 
+## 2026-04-03 - Update 1
+Implemented the following:
+- client/src/pages/home/Home.scss
+
