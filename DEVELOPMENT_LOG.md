@@ -346,3 +346,7 @@ Implemented the following:
 - client/src/pages/login/Login.jsx
 - client/src/pages/register/Register.jsx
 
+## 2026-04-04 - Update 2
+Implemented the following:
+- client/src/pages/Pay/Pay.jsx
+
