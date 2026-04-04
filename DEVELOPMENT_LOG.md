@@ -341,3 +341,8 @@ Implemented the following:
 Implemented the following:
 - client/src/main.jsx
 
+## 2026-04-04 - Update 1
+Implemented the following:
+- client/src/pages/login/Login.jsx
+- client/src/pages/register/Register.jsx
+
