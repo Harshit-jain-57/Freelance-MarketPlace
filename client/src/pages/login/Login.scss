@@ -1,0 +1,84 @@
+.login {
+  min-height: 100vh;
+  background: #f1fdf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    background: #fff;
+    padding: 48px 40px 36px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px 2px rgba(1, 57, 20, 0.09);
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    gap: 20px;
+    
+    h1 {
+      text-align: center;
+      color: #013914;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    label {
+      color: #195a32;
+      font-weight: 500;
+      margin-bottom: 6px;
+      font-size: 0.97rem;
+      margin-top: 12px;
+    }
+    input {
+      padding: 12px 10px;
+      font-size: 1rem;
+      border: 1px solid #e9ecef;
+      border-radius: 7px;
+      outline: none;
+      margin-bottom: 8px;
+      transition: border .2s;
+      &:focus {
+        border-color: #1dbf73;
+      }
+    }
+    button {
+      background: #1dbf73;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      font-size: 1.06rem;
+      font-weight: 600;
+      padding: 14px 0;
+      letter-spacing: .02em;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+      &:hover {
+        background: #13a35b;
+      }
+    }
+    .create-account-btn {
+      margin-top: 10px;
+      width: 100%;
+      background: #fff;
+      color: #1dbf73;
+      border: 2px solid #1dbf73;
+      border-radius: 7px;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 12px 0;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      &:hover {
+        background: #1dbf73;
+        color: #fff;
+      }
+    }
+    .error {
+      color: #b20030;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  }
+}
