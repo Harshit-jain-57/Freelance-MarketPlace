@@ -365,3 +365,7 @@ Implemented the following:
 - client/src/pages/message/Message.jsx
 - client/src/utils/newRequest.js
 
+## 2026-04-07 - Update 1
+Implemented the following:
+- client/src/utils/upload.js
+
