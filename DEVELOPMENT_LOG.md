@@ -369,3 +369,7 @@ Implemented the following:
 Implemented the following:
 - client/src/utils/upload.js
 
+## 2026-04-07 - Update 2
+Implemented the following:
+- client/src/pages/add/Add.scss
+
