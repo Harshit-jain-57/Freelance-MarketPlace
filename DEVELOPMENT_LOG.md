@@ -377,3 +377,7 @@ Implemented the following:
 Implemented the following:
 - client/src/pages/message/Message.scss
 
+## 2026-04-08 - Update 1
+Implemented the following:
+- client/src/pages/messages/Messages.jsx
+
