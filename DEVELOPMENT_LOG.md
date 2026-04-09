@@ -385,3 +385,7 @@ Implemented the following:
 Implemented the following:
 - client/src/pages/gig/Gig.jsx
 
+## 2026-04-09 - Update 1
+Implemented the following:
+- client/src/pages/gig/Gig.scss
+
